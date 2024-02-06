@@ -26,7 +26,7 @@ public class GuessingGame{
             randomNumber.setSeed(Long.valueOf(args[0]));
         }
 
-        int secretNumber = randomNumber.nextInt(99) + 1;
+        int secretNumber = randomNumber.nextInt(999) + 1;
         int guessCounter = 1;
         final int QUIT = 0;
         System.out.print("Enter your guess? ");
